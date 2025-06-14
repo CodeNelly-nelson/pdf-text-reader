@@ -15,7 +15,7 @@ class ReadMyText:
         try:
             engine = pyttsx3.init()
             engine.setProperty("rate", 180)
-            engine.setProperty("volume", 0.9)
+            engine.setProperty("volume", 1.0)
             return engine  # FIXED: Return the engine, not cls(engine)
         except Exception as e:
             print(f"Unable to initialize TTS engine: {e}")
