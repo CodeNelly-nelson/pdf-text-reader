@@ -1,3 +1,4 @@
+pynput==1.8.1
 pyobjc==11.0
 pyobjc-core==11.0
 pyobjc-framework-Accessibility==11.0
@@ -151,3 +152,4 @@ pyobjc-framework-Vision==11.0
 pyobjc-framework-WebKit==11.0
 PyPDF2==3.0.1
 pyttsx3==2.98
+six==1.17.0
